@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <title>Berita Terkini</title>
+    
+    <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("#hide").click(function(){
+ $("p").hide();
+ });
+ $("#show").click(function(){
+ $("p").show();
+ });
+});
+</script>
+
+    <style type="text/css">
+       .oval{
+            border-radius: 50px;
+        }
+        .tombol-ungu{
+            background-color: #201F57;
+        }
+        .iklan{
+          position: fixed;
+          background-color: orange;
+          top: 70px;
+          left: 150px;
+          right: 150px;
+          bottom: 150px;
+        }
+    </style>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light tombol-ungu mb-4">
+  <div class="container-fluid mx-3 py-2">
+    <a class="navbar-brand text-white" href="#">Berita Terkini</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+      </ul>
+      <form class="d-flex">
+        <div class="input-group">
+          <input type="text" class="form-control rounded-pill shadow-none w100" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2" style="width: 1000px">
+          <button class="btn btn-outline-secondary position-absolute z-index-2 top-50 end-0 translate-middle-y rounded-pill border-0" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+        </div>
+      </form>
+
+      <button class="btn text-white bg-transparent mx-2 shadow-none" type="button">Masuk</button>
+      <button class="btn rounded-pill bg-white shadow-none">Daftar</button>
+    </div>
+  </div>
+</nav>
+
+
+ <div class="container mb-5">
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <img src="adikpra.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Diam-diam Adik Prabowo Ekspor 
+                        Ini dari Ukraina, Nih Buktinya</h5>
+                        <p class="card-text text-secondary">35 menit yang lalu</p>
+                      <a href="#" class="btn oval tombol-ungu text-white">Lihat Detail</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!-- aside -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12 mb-5">
+                        <div class="card">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Teknologi</li>
+                              <li class="list-group-item">Entreprenuer</li>
+                              <li class="list-group-item">Lifestyle</li>
+                              <li class="list-group-item">Market</li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="col-md-12 mb-5">
+                        <div class="card">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="ssnews.PNG" width="100%" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="card-text">Prabowo tiba - tiba jadi
+                                            sorotan media asing, ada
+                                            apa?</p>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="ssnews.PNG" width="100%" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="card-text">Prabowo tiba - tiba jadi
+                                            sorotan media asing, ada
+                                            apa?</p>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="ssnews.PNG" width="100%" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="card-text">Prabowo tiba - tiba jadi
+                                            sorotan media asing, ada
+                                            apa?</p>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="ssnews.PNG" width="100%" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="card-text">Prabowo tiba - tiba jadi
+                                            sorotan media asing, ada
+                                            apa?</p>
+                                    </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- main -->
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <img src="adikpra.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Diam-diam Adik Prabowo Ekspor 
+                                Ini dari Ukraina, Nih Buktinya</h5>
+                                <p class="card-text text-secondary">35 menit yang lalu</p>
+                              <a href="#" class="btn oval tombol-ungu text-white">Lihat Detail</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <img src="adikpra.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Diam-diam Adik Prabowo Ekspor 
+                                Ini dari Ukraina, Nih Buktinya</h5>
+                                <p class="card-text text-secondary">35 menit yang lalu</p>
+                              <a href="#" class="btn oval tombol-ungu text-white">Lihat Detail</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <img src="adikpra.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Diam-diam Adik Prabowo Ekspor 
+                                Ini dari Ukraina, Nih Buktinya</h5>
+                                <p class="card-text text-secondary">35 menit yang lalu</p>
+                              <a href="#" class="btn oval tombol-ungu text-white">Lihat Detail</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <img src="adikpra.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Diam-diam Adik Prabowo Ekspor 
+                                Ini dari Ukraina, Nih Buktinya</h5>
+                                <p class="card-text text-secondary">35 menit yang lalu</p>
+                              <a href="#" class="btn oval tombol-ungu text-white">Lihat Detail</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <img src="adikpra.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Diam-diam Adik Prabowo Ekspor 
+                                Ini dari Ukraina, Nih Buktinya</h5>
+                                <p class="card-text text-secondary">35 menit yang lalu</p>
+                              <a href="#" class="btn oval tombol-ungu text-white">Lihat Detail</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item tombol-ungu"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </nav>
+            </div>
+
+            
+        </div>
+    </div>
+
+<div class="container">
+ <div class="row">
+   <div class="col-md-8">
+      <div class="iklan z-index-99">
+        <div class="close"><i class="bi bi-x-circle-fill"></i>
+        </div>
+      </div>
+   </div>
+ </div>
+</div>
+
+
+<footer class=" tombol-ungu">
+  <div class="container-fluid border py-1">
+      <div class="row justify-content-center text-center py-auto">
+        <div class="col mx-auto align-self-center">
+          <p class="fw-bold text-white">Losrem Ipsum</p>
+        </div>
+  </div>
+</footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
